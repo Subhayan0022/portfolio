@@ -1,0 +1,64 @@
+.portfolio-bg {
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
+
+/* !!!SCROLLBAR CSS!!! */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(36, 45, 57);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 8px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+/* !!!SCROLLBAR CSS!!! */
+
+.portfolio-text {
+    font-family: 'Tilt Neon';
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.portfolio-title {
+    font-family: 'Ubuntu';
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.portfolio-card {
+    background-color: rgba(105, 90, 205, 0.090);
+    box-shadow: -10px 10px 10px rgba(255, 250, 250, 0.075);
+}
+
+.info-button {
+  font-family: 'Tilt Neon';
+  font-size: 20px;
+  font-weight: 800;
+  color: aliceblue;
+    
+	line-height: 45px;
+
+	background-color: rgba(101, 99, 218, 0.425);
+	box-shadow: -4px 4px 20px rgba(255, 250, 250, 0.075);
+}
+
+.info-button:hover{
+  transition-duration: 500ms;
+  transition-property: line-height;
+
+  background-color: slategray;
+  color: black;
+  line-height: 55px;
+}

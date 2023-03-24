@@ -2,22 +2,29 @@ import pfp from "../assets/face.jpg"
 
 function IntroCard(props) {
     return ( 
-        <div class="flex flex-col portfolio-card m-10 rounded-xl h-4/6 w-1/2">
-            <div class="flex flex-wrap mt-10 justify-center">
-                <div class="w-6/12 sm:w-4/12 px-4">
-                    <img src={pfp} alt="..." class="shadow-lg rounded-full max-w-full h-auto align-middle border-none" />
+        <div class="flex flex-col -mt-4 h-full w-full">
+            <div class="flex flex-row h-4/6 w-full">
+                <div class="flex mt-20 h-4/6 w-full">
+                    <div class="w-4/12  mt-32  m-auto">
+                        <img src={pfp} alt="..." class="shadow-lg rounded-full" />
+                    </div>
+                </div>
+                <div class="flex flex-col portfolio-card m-auto mt-32 mr-32 rounded-xl h-4/6 w-full">
+                    
+                    <div class="flex flex-col overflow-hidden h-full w-full mt-10">
+                        <h1 class="portfolio-title text-center text-5xl">HI! I'M SUBHAYAN MAJUMDER</h1>
+                        <h2 class="portfolio-text text-2xl p-3 text-center mt-14">I'm a Student Developer currently pursuing my undergrad degree in Bachelor of Computer Applications (BCA).</h2>
+                        <h3 class="portfolio-text text-2xl p-3 text-center">I love working on my Game Development projects, Web Designing and actively learning about new technology and buzz..</h3>
+                        <button onClick={()=>{
+                        
+                        }} class="info-button rounded-xl px-8 m-auto">RESUME</button>
+                    </div>
                 </div>
             </div>
-            <div class="flex flex-col overflow-hidden h-full w-full mt-10">
-                <h1 class="portfolio-title ml-14 text-6xl">Hi! I'm Subhayan</h1>
-                <h2 class="portfolio-text text-center p-3 mt-10">I'm a Student Developer currently pursuing my undergrad degree in Bachelor of Computer Applications (BCA).</h2>
-                <h3 class="portfolio-text text-center p-3">I love working on my Game Development projects and Web Designing</h3>
-                <button onClick={()=>{
-				    }}>
-					<h1 class="m-auto mt-10 text-white hover:text-gray-400 italic underline">Learn more...</h1>
-				</button>
-            </div>
-        </div>
+            <div class="flex  m-auto mt-2 h-1/6 w-1/6">
+                <div class="down-arrow"></div>
+            </div>    
+        </div>                
      );
 }
 

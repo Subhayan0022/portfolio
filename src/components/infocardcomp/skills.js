@@ -17,8 +17,8 @@ function Skills(props) {
     return (
         <div class="flex flex-col h-5/6 w-11/12 mt-6 m-auto">
             <div class="flex flex-row h-full w-full  ">
-                <div class="flex h-full w-full  ">
-                    <img class="skill-card h-4/6 w-7/12 m-auto" src={cpp}/>
+                <div class="flex h-full w-full ">
+                    <img class="skill-card h-4/6 w-7/12 m-auto" src={cpp}/>             
                 </div>
                 <div class="flex h-full w-full  ">
                     <img class="skill-card h-4/6 w-7/12 m-auto" src={c}/>

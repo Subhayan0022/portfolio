@@ -137,24 +137,24 @@
   background-color: rgba(255, 255, 255, 0);
   overflow: hidden;
 
-  transition: transform 5ms;
+  transition: transform 500ms;
 
-  -webkit-animation: fadeInUp 1.2s both;
+  /* -webkit-animation: fadeInUp 1.2s both;
   -moz-animation: fadeInUp 1.2s both;
   -o-animation: fadeInUp 1.2s both;
-  animation: fadeInUp 1.2s both;
+  animation: fadeInUp 1.2s both; */
 
 }
 
 .skill-card:hover {
   transform: scale(1.5 ,1.5);
-  filter: grayscale(50%) blur(10px);
+  filter: grayscale(5%) blur(5px);
 }
 
 .project-card {
   background-color: rgba(105, 90, 205, 0.212);
-  border-radius: 10px;
-  box-shadow: -4px 4px 20px rgba(255, 250, 250, 0.075);
+  border-radius: 15px;
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.075);
 
   -webkit-animation: fadeInUp 1.2s both;
   -moz-animation: fadeInUp 1.2s both;

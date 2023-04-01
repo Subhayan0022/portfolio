@@ -8,7 +8,7 @@ import Achievements from "./infocardcomp/achievements"
 function InfoCard(props) {
 
     // CHANGE THIS AFTER USE
-    const [currentButton, updateCurrentButton] = useState("SkillsCard")
+    const [currentButton, updateCurrentButton] = useState("ProjectsCard")
 
     const infoCardButton = {}
     infoCardButton["AboutCard"] = <About/>
@@ -17,8 +17,8 @@ function InfoCard(props) {
     infoCardButton["AchievementsCard"] = <Achievements/>
 
     return ( 
-        <div class="flex flex-col portfolio-card m-10 rounded-xl h-6/6 w-full">
-            <div class="flex justify-center h-1/6 w-full">
+        <div class="flex flex-col portfolio-card m-auto rounded-3xl h-full w-11/12">
+            <div class="flex justify-center m-auto h-1/6 w-full ">
                 <button onClick={()=>{
                     updateCurrentButton("AboutCard")
                 }} class="info-button rounded-xl px-8 m-auto">About</button>

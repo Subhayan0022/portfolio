@@ -1,6 +1,6 @@
 function Achievements(props) {
     return ( 
-        <div class="flex h-5/6 w-11/12 m-auto border-4 border-green-400">
+        <div class="flex h-full w-full m-auto border-4 border-blue-600">
 
         </div>
      );

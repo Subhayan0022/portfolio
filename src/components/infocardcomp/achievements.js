@@ -1,7 +1,9 @@
+import cert1 from "../../assets/achiv1.jpeg"
+
 function Achievements(props) {
     return ( 
-        <div class="flex h-full w-full m-auto border-4 border-blue-600">
-
+        <div class="flex h-5/6 w-full m-auto">
+            
         </div>
      );
 }

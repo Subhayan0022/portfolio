@@ -1,15 +1,15 @@
-import bxs from "../../assets/bxs.jpeg"
+import bxs from "../../assets/bxs.jpg"
 import ballgame from "../../assets/bgame.png"
 import portfolio from "../../assets/port.png"
 
 function Projects(props) {
     return ( 
-        <div class="flex flex-col h-full w-11/12 m-auto overflow-y-scroll">
+        <div class="flex flex-col h-full w-full m-auto overflow-y-scroll">
             <div class="flex h-3/6 w-full shrink-0">
-                <div class="flex border-4 flex-row project-card h-5/6 w-9/12 m-auto">
-                    <div class="flex h-full w-8/12">
+                <div class="flex flex-row project-card h-5/6 w-9/12 m-auto">
+                    <div class="flex h-full w-10/12">
                         <div class="flex h-5/6 w-11/12 m-auto rounded-xl">
-                            <img class="hover:scale-125 duration-500 h-full w-full rounded-lg" src={bxs}/>
+                            <img class="hover:scale-125 duration-500 h-full m-auto w-full rounded-lg" src={bxs}/>
                         </div>
                     </div>
                     <div class="flex flex-col h-full w-full">
@@ -38,8 +38,8 @@ function Projects(props) {
                 </div>
             </div>
             <div class="flex h-3/6 w-full shrink-0 ">
-                <div class="flex flex-row border-4 project-card h-5/6 w-9/12 m-auto">
-                    <div class="flex h-full w-8/12">
+                <div class="flex flex-row project-card h-5/6 w-9/12 m-auto">
+                    <div class="flex h-full w-10/12">
                         <div class="flex h-5/6 w-11/12 m-auto rounded-xl">
                             <img class="hover:scale-125 duration-500 h-full w-full rounded-lg" src={portfolio}/>
                         </div>
@@ -64,10 +64,10 @@ function Projects(props) {
                 </div>                      
             </div>
             <div class="flex h-3/6 w-full shrink-0">
-                <div class="flex border-4 flex-row project-card h-5/6 w-9/12 m-auto">
-                    <div class="flex h-full w-8/12">
+                <div class="flex flex-row project-card h-5/6 w-9/12 m-auto">
+                    <div class="flex h-full w-10/12">
                         <div class="flex h-5/6 w-11/12 m-auto rounded-xl">
-                            <img class="hover:scale-125 duration-500 h-full w-full rounded-lg" src={ballgame}/>
+                            <img class="hover:scale-125 duration-500 h-full w-full rounded-xl" src={ballgame}/>
                         </div>
                     </div>
                     <div class="flex flex-col h-full w-full">

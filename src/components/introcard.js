@@ -1,5 +1,6 @@
 import pfp from "../assets/face.png"
 import arrows from "../assets/arrow.png"
+import resumepdf from "../assets/Resume.pdf"
 
 function IntroCard(props) {
     return ( 
@@ -16,18 +17,18 @@ function IntroCard(props) {
                         <h1 class="portfolio-title text-center text-6xl">HI! I'M SUBHAYAN</h1>
                         <h2 class="portfolio-text text-2xl p-3 text-center mt-14">I'm a Student Developer currently pursuing my undergrad degree in Bachelor of Computer Applications (BCA).</h2>
                         <h3 class="portfolio-text text-2xl p-3 text-center">I love working on my Game Development projects, Web Designing and actively learning about new technological buzz..</h3>
-                        <button onClick={()=>{
-                        
-                        }} class="project-button hover:scale-90 rounded-xl px-8 m-auto">RESUME</button>
+                        <a class="m-auto" href={resumepdf} download="Resume-PDF-document" target="_blank" rel="noreferrer">
+                            <button class="project-button hover:scale-90 rounded-xl px-8 ">RESUME</button>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="flex m-auto mt-2 h-1/6 w-1/6">
-                <button onClick={()=>{
-                   
-                }} class="hover:cursor-pointer m-auto animate-bounce h-1/6 w-1/6">
-                     <img src={arrows}/>
-                </button>
+            <div class="flex m-auto mt-2 h-1/6 w-1/6">   
+                <a href="#sec-2" class="m-auto ml-32">  
+                    <button class="hover:cursor-pointer animate-bounce h-2/6 w-2/6">
+                        <img src={arrows}/>
+                    </button>
+                </a>
             </div>    
         </div>                
      );

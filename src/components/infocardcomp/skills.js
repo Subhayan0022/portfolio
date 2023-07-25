@@ -12,6 +12,9 @@ import mongo from "../../assets/mongo.png"
 import sql from "../../assets/sql.png"
 import unreal from "../../assets/unreal.png"
 import unity from "../../assets/unity.png"
+import php from "../../assets/phpicon.png"
+import xampp from "../../assets/xamppicon.png"
+import blender from "../../assets/blendericon.png"
 
 function Skills(props) {
     return (
@@ -35,16 +38,19 @@ function Skills(props) {
             </div>
             <div class="flex flex-row h-full w-full">
                 <div class="flex h-full w-full  ">
-                    <img class="skill-card h-4/6 w-5/12 m-auto" src={html}/>
+                    <img class="skill-card h-4/6 w-6/12 m-auto" src={html}/>
                 </div>
                 <div class="flex h-full w-full  ">
-                    <img class="skill-card h-4/6 w-5/12 m-auto" src={css}/>
+                    <img class="skill-card h-4/6 w-6/12 m-auto" src={css}/>
                 </div>
                 <div class="flex h-full w-full ">
-                    <img class="skill-card h-4/6 w-5/12 m-auto" src={jscript}/>
+                    <img class="skill-card h-5/6 w-7/12 m-auto" src={jscript}/>
                 </div>
                 <div class="flex h-full w-full  ">
-                    <img class="skill-card h-4/6 w-5/12 m-auto" src={react}/>
+                    <img class="skill-card h-4/6 w-6/12 m-auto" src={react}/>
+                </div>
+                <div class="flex h-full w-full  ">
+                    <img class="skill-card h-4/6 w-6/12 m-auto" src={php}/>
                 </div>
                 
             </div>
@@ -56,18 +62,24 @@ function Skills(props) {
                     <h1 class="skill-card portfolio-text text-4xl font-bold m-auto">ExpressJS</h1>
                 </div>
                 <div class="flex h-full w-full ">
-                    <img class="skill-card h-full w-6/12 m-auto" src={mongo}/>
+                    <img class="skill-card h-full w-8/12 m-auto" src={mongo}/>
                 </div>
                 <div class="flex h-full w-full  ">
                     <img class="skill-card h-4/6 w-6/12 m-auto" src={sql}/>
                 </div>
+                <div class="flex h-full w-full  ">
+                    <img class="skill-card h-3/6 w-5/12 m-auto" src={xampp}/>
+                </div>
             </div>
             <div class="flex flex-row h-full w-full">
                 <div class="flex h-full w-full  ">
-                    <img class="skill-card h-3/6 w-2/12 m-auto" src={unreal}/>
+                    <img class="skill-card h-3/6 w-3/12 m-auto" src={unreal}/>
                 </div>
                 <div class="flex h-full w-full  ">
-                    <img class="skill-card h-4/6 w-4/12 m-auto" src={unity}/>
+                    <img class="skill-card h-4/6 w-6/12 m-auto" src={unity}/>
+                </div>
+                <div class="flex h-full w-full  ">
+                    <img class="skill-card h-2/6 w-6/12 m-auto" src={blender}/>
                 </div>
             </div>
         </div>

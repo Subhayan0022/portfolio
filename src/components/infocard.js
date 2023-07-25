@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+import About from "./infocardcomp/about"
 import Skills from "./infocardcomp/skills"
 import Projects from "./infocardcomp/projects"
 import Achievements from "./infocardcomp/achievements"
@@ -7,9 +8,10 @@ import Achievements from "./infocardcomp/achievements"
 function InfoCard(props) {
 
     // CHANGE THIS AFTER USE
-    const [currentButton, updateCurrentButton] = useState("ProjectsCard")
+    const [currentButton, updateCurrentButton] = useState("AboutCard")
 
     const infoCardButton = {}
+    infoCardButton["AboutCard"] = <About/>
     infoCardButton["SkillsCard"] = <Skills/>
     infoCardButton["ProjectsCard"] = <Projects/>
     infoCardButton["AchievementsCard"] = <Achievements/>

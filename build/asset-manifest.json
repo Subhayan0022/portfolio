@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.js": "/static/js/main.96dcc8a4.js",
+    "static/media/sql.png": "/static/media/sql.6f962be1f52bd42898d1.png",
+    "static/media/python.png": "/static/media/python.d8b377f05522bf35de36.png",
+    "static/media/port.png": "/static/media/port.53e73bcbe32dcbb37233.png",
+    "static/media/unreal.png": "/static/media/unreal.a8e06e53fb610b3f06bf.png",
+    "static/media/blendericon.png": "/static/media/blendericon.f80940af09a61354e34d.png",
+    "static/media/xamppicon.png": "/static/media/xamppicon.facb942c6213aa45f28a.png",
+    "static/media/arrow.png": "/static/media/arrow.3fa9b84faeebfc8fad01.png",
+    "static/media/bxs.jpg": "/static/media/bxs.1cd5290d9d1234f496d7.jpg",
+    "static/media/achiv1.jpeg": "/static/media/achiv1.8f3b3654ea6895a00400.jpeg",
+    "static/media/Resume.pdf": "/static/media/Resume.f38fb740bd8af040aa03.pdf",
+    "static/media/java.png": "/static/media/java.4c23f3760d7ae20fd7c8.png",
+    "static/media/phpicon.png": "/static/media/phpicon.798b6f3645a4acebd610.png",
+    "static/media/unity.png": "/static/media/unity.23bb87d35299b0ef7949.png",
+    "static/media/bgame.png": "/static/media/bgame.a5b4e74ea64b636b0943.png",
+    "static/media/css.png": "/static/media/css.7f03bab25789e1b15d38.png",
+    "static/media/mongo.png": "/static/media/mongo.479432de633a4886d3dc.png",
+    "static/media/linkedin.png": "/static/media/linkedin.38dec86db3dd63436a06.png",
+    "static/media/node.png": "/static/media/node.e71346fe0fec16ec5f6e.png",
+    "static/media/c.png": "/static/media/c.490f02498154a8809d02.png",
+    "static/media/cpp.png": "/static/media/cpp.1240ce157b70fb399c6c.png",
+    "static/media/react.png": "/static/media/react.c39fe1cf1dc6559c7db6.png",
+    "static/media/csharp.png": "/static/media/csharp.82739bedbdacc34c97a0.png",
+    "static/media/contacts.png": "/static/media/contacts.f566074a306a458a0cc1.png",
+    "static/media/github.png": "/static/media/github.65a029dd14ae5c405656.png",
+    "index.html": "/index.html",
+    "main.96dcc8a4.js.map": "/static/js/main.96dcc8a4.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.96dcc8a4.js"
+  ]
+}

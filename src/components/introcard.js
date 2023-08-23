@@ -1,5 +1,5 @@
 import pfp from "../assets/face.png"
-import arrows from "../assets/arrow.png"
+import arrow from "../assets/arrow.png"
 import resumepdf from "../assets/Resume.pdf"
 
 function IntroCard(props) {
@@ -13,20 +13,20 @@ function IntroCard(props) {
                 </div>
                 <div class="flex flex-col  portfolio-card m-auto mt-32 mr-32 rounded-xl h-4/6 w-full">
                     
-                    <div class="flex flex-col overflow-auto h-full w-full mt-10">
+                    <div class="flex typewriter flex-col overflow-auto h-full w-full mt-10">
                         <h1 class="portfolio-title text-center text-6xl">HI! I'M SUBHAYAN</h1>
                         <h2 class="portfolio-text text-2xl p-3 text-center mt-14">I'm a Student Developer currently pursuing my undergrad degree in Bachelor of Computer Applications (BCA).</h2>
-                        <h3 class="portfolio-text text-2xl p-3 text-center">I love working on my Game Development projects, Web Designing and actively learning about new technological buzz..</h3>
+                        <h3 class="portfolio-text text-2xl p-3 text-center">I love working on my Game Development projects, Web Designing and actively learning about the newest technological buzz..</h3>
                         <a class="m-auto" href={resumepdf} download="Resume-PDF-document" target="_blank" rel="noreferrer">
                             <button class="project-button hover:scale-90 rounded-xl px-8 ">RESUME</button>
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="flex m-auto mt-2 h-1/6 w-1/6">   
-                <a href="#sec-2" class="m-auto ml-32">  
-                    <button class="hover:cursor-pointer animate-bounce h-2/6 w-2/6">
-                        <img src={arrows}/>
+            <div class="flex mt-2 m-auto h-1/6 w-1/6">   
+                <a href="#sec-2" class="  h-full w-full m-auto">  
+                    <button class="hover:cursor-pointer m-auto animate-bounce h-full w-full ">
+                        <img class="h-4/6 w-4/12 m-auto" src={arrow}/>
                     </button>
                 </a>
             </div>    

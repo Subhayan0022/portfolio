@@ -13,73 +13,93 @@ import sql from "../../assets/sql.png"
 import unreal from "../../assets/unreal.png"
 import unity from "../../assets/unity.png"
 import php from "../../assets/phpicon.png"
-import xampp from "../../assets/xamppicon.png"
-import blender from "../../assets/blendericon.png"
+import xampp from "../../assets/xampp.png"
+import blender from "../../assets/blender.png"
+import dbms from "../../assets/dbms.png"
 
 function Skills(props) {
     return (
-        <div class="flex flex-col h-full w-11/12 m-auto">
+        <div class="flex flex-col h-full w-11/12 m-auto ">
             <div class="flex flex-row h-full w-full">
-                <div class="flex h-full w-full  ">
-                    <img class="skill-card h-3/6 w-5/12 m-auto" src={cpp}/>
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-5/6 w-10/12 m-auto shrink-0 -mt-1" src={cpp}/>
+                    <p class="text-white font-bold">C++</p>
                 </div>
-                <div class="flex h-full w-full  ">
-                    <img class="skill-card h-3/6 w-5/12 m-auto" src={c}/>
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-4/6 w-7/12 m-auto" src={c}/>
+                    <p class="text-white font-bold mt-4">C</p>
                 </div>
-                <div class="flex h-full w-full ">
-                    <img class="skill-card h-3/6 w-5/12 m-auto" src={java}/>
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-4/6 w-6/12 m-auto" src={java}/>
+                    <p class="text-white font-bold mt-4">Java</p>
                 </div>
-                <div class="flex h-full w-full  ">
-                    <img class="skill-card h-3/6 w-5/12 m-auto" src={csharp}/>
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-4/6 w-7/12 m-auto" src={csharp}/>
+                    <p class="text-white font-bold mt-4">C Sharp</p>
                 </div>
-                <div class="flex h-full w-full ">
-                    <img class="skill-card h-3/6 w-5/12 m-auto" src={python}/>
-                </div>
-            </div>
-            <div class="flex flex-row h-full w-full">
-                <div class="flex h-full w-full  ">
-                    <img class="skill-card h-4/6 w-6/12 m-auto" src={html}/>
-                </div>
-                <div class="flex h-full w-full  ">
-                    <img class="skill-card h-4/6 w-6/12 m-auto" src={css}/>
-                </div>
-                <div class="flex h-full w-full ">
-                    <img class="skill-card h-5/6 w-7/12 m-auto" src={jscript}/>
-                </div>
-                <div class="flex h-full w-full  ">
-                    <img class="skill-card h-4/6 w-6/12 m-auto" src={react}/>
-                </div>
-                <div class="flex h-full w-full  ">
-                    <img class="skill-card h-4/6 w-6/12 m-auto" src={php}/>
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-4/6 w-6/12 m-auto" src={python}/>
+                    <p class="text-white font-bold mt-4">Python</p>
                 </div>
                 
             </div>
             <div class="flex flex-row h-full w-full">
-                <div class="flex h-full w-full  ">
-                    <img class="skill-card h-4/6 w-5/12 m-auto" src={node}/>
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-4/6 w-5/12 m-auto mt-1" src={html}/>
+                    <p class="text-white font-bold mt-3">HTML</p>
                 </div>
-                <div class="flex h-full w-full  ">
-                    <h1 class="skill-card portfolio-text text-4xl font-bold m-auto">ExpressJS</h1>
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-4/6 w-6/12 m-auto" src={css}/>
+                    <p class="text-white font-bold mt-4">CSS</p>
                 </div>
-                <div class="flex h-full w-full ">
-                    <img class="skill-card h-full w-8/12 m-auto" src={mongo}/>
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-4/6 w-6/12 m-auto" src={jscript}/>
+                    <p class="text-white font-bold mt-4">JavaScript</p>
                 </div>
-                <div class="flex h-full w-full  ">
-                    <img class="skill-card h-4/6 w-6/12 m-auto" src={sql}/>
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-4/6 w-6/12 m-auto" src={react}/>
+                    <p class="text-white font-bold mt-4">React</p>
                 </div>
-                <div class="flex h-full w-full  ">
-                    <img class="skill-card h-3/6 w-5/12 m-auto" src={xampp}/>
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-3/6 w-7/12 m-auto mt-4" src={php}/>
+                    <p class="text-white font-bold mt-5">PHP</p>
+                </div>
+                
+            </div>
+            <div class="flex flex-row h-full w-full">
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-3/6 w-4/12 m-auto mt-4" src={node}/>
+                    <p class="text-white font-bold mt-4">NodeJS</p>
+                </div>
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-4/6 w-6/12 m-auto" src={mongo}/>
+                    <p class="text-white font-bold mt-2">MongoDB</p>
+                </div>
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-4/6 w-6/12 m-auto" src={sql}/>
+                    <p class="text-white font-bold mt-4">SQL</p>
+                </div>
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-4/6 w-6/12 m-auto" src={dbms}/>
+                    <p class="text-white font-bold mt-4">DBMS</p>
+                </div>
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-4/6 w-6/12 m-auto" src={xampp}/>
+                    <p class="text-white font-bold mt-4">Apache</p>
                 </div>
             </div>
             <div class="flex flex-row h-full w-full">
-                <div class="flex h-full w-full  ">
-                    <img class="skill-card h-3/6 w-3/12 m-auto" src={unreal}/>
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-4/6 w-6/12 m-auto mt-5" src={unreal}/>
+                    {/* <p class="text-white font-bold mt-4">Unreal Engine</p> */}
                 </div>
-                <div class="flex h-full w-full  ">
-                    <img class="skill-card h-4/6 w-6/12 m-auto" src={unity}/>
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-4/6 w-11/12 m-auto mt-5" src={unity}/>
+                    {/* <p class="text-white font-bold mt-4">C++</p> */}
                 </div>
-                <div class="flex h-full w-full  ">
-                    <img class="skill-card h-2/6 w-6/12 m-auto" src={blender}/>
+                <div class="skill-card h-4/6 w-1/12 m-auto">
+                    <img class="h-4/6 w-6/12 m-auto" src={blender}/>
+                    <p class="text-white font-bold mt-4">Blender</p>
                 </div>
             </div>
         </div>

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useEffect } from "react"
 
 import About from "./infocardcomp/about"
 import Skills from "./infocardcomp/skills"
@@ -6,6 +7,22 @@ import Projects from "./infocardcomp/projects"
 import Achievements from "./infocardcomp/achievements"
 
 function InfoCard(props) {
+
+    useEffect(()=>{
+        const observer = new IntersectionObserver((entries)=>{
+            entries.forEach(entry => {
+              const square = entry.target
+          
+              if (entry.isIntersecting) {
+                square.classList.add('portfolio-card-animation');
+                return;
+              }
+              square.classList.remove('portfolio-card-animation');
+            });
+          });
+    
+          observer.observe(document.querySelectorAll('.portfolio-card')[1]);
+    })
 
     // CHANGE THIS AFTER USE
     const [currentButton, updateCurrentButton] = useState("AboutCard")
@@ -18,7 +35,7 @@ function InfoCard(props) {
 
     return ( 
         <div class="flex flex-col portfolio-card m-auto rounded-3xl h-full w-11/12">
-            <div class="flex justify-center m-auto shrink-0 h-40 w-full shadow-xl rounded-xl">
+            <div class="flex justify-center m-auto shrink-0 h-40 w-full rounded-xl">
                 <button onClick={()=>{
                     updateCurrentButton("SkillsCard")
                 }} class="info-button rounded-xl px-8 m-auto">Skills</button>
@@ -27,7 +44,7 @@ function InfoCard(props) {
                 }} class="info-button rounded-xl px-8 m-auto">Projects</button>
                 <button onClick={()=>{
                     updateCurrentButton("AchievementsCard")
-                }} class="info-button rounded-xl px-8 m-auto">Achievements</button>
+                }} class="info-button rounded-xl px-8 m-auto">Certificates</button>
             </div>
             <div class="flex h-full w-full overflow-y-scroll">
                 {infoCardButton[currentButton]}

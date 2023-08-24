@@ -14,7 +14,7 @@ function IntroCard(props) {
                 <div class="flex flex-col  portfolio-card m-auto mt-32 mr-32 rounded-xl h-4/6 w-full">
                     
                     <div class="flex typewriter flex-col overflow-auto h-full w-full mt-10">
-                        <h1 class="portfolio-title text-center text-6xl">HI! I'M SUBHAYAN</h1>
+                        <h1 class="portfolio-title text-center text-6xl">HI! I'M SUBHAYAN.</h1>
                         <h2 class="portfolio-text text-2xl p-3 text-center mt-14">I'm a Student Developer currently pursuing my undergrad degree in Bachelor of Computer Applications (BCA).</h2>
                         <h3 class="portfolio-text text-2xl p-3 text-center">I also develop Games and Webistes while actively learning about the newest technological buzz..</h3>
                         <a class="m-auto" href={resumepdf} download="Resume-PDF-document" target="_blank" rel="noreferrer">

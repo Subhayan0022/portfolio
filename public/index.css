@@ -45,6 +45,36 @@ html{
     color: aliceblue;
 }
 
+.sub-menu-wrap {
+  position: absolute;
+  top: 12%;
+  right: 5%;
+  width: 300px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+.sub-menu-wrap.open-menu {
+  max-height: 50px;
+}
+
+.sub-menu {
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 0.45rem;
+}
+
+.user-info{
+  display: flex;
+  align-items: center;
+}
+
+.user-info h2 {
+  font-weight: 500;
+  margin: auto;
+}
+
 /* .portfolio-card {
     background-color: rgba(63, 75, 75, 0);
     box-shadow: 5px 5px 5px 3px rgba(255, 255, 255, 0.5);
@@ -290,4 +320,35 @@ html{
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: aliceblue; }
+}
+
+
+.slide-right, .slide-left {
+  width: 100%;
+}
+
+
+.slide-right {
+  animation: 1s slide-right;
+}
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+
+.slide-left {
+  animation: 3s slide-left;
+}
+@keyframes slide-left {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
 }

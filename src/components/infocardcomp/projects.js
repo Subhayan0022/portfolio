@@ -53,9 +53,9 @@ function Projects(props) {
                                 }} class="project-button rounded-xl px-8 m-auto">Go to site</button>
                             </div>
                             <div class="flex h-full w-full">
-                                <button onClick={()=>{
-                                        
-                                }} class="project-button rounded-xl px-8 m-auto">Go to code</button>
+                                <a class="m-auto" href="https://github.com/Subhayan0022/buyxsell-client" target="_blank" rel="noopener noreferrer">
+                                    <button class="project-button rounded-xl px-8">Go to code</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -79,9 +79,9 @@ function Projects(props) {
                         </div>
                         <div class="flex flex-row h-3/6 w-full">
                             <div class="flex h-full w-full">
-                                <button onClick={()=>{
-                                        
-                                }} class="project-button rounded-xl px-8 m-auto">Go to code</button>
+                                <a class="m-auto" href="https://github.com/Subhayan0022/portfolio" target="_blank" rel="noopener noreferrer">
+                                    <button class="project-button rounded-xl px-8">Go to code</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -143,9 +143,9 @@ function Projects(props) {
                                 }} class="project-button rounded-xl px-8 m-auto">Go to site</button>
                             </div>
                             <div class="flex h-full w-full">
-                                <button onClick={()=>{
-                                        
-                                }} class="project-button rounded-xl px-8 m-auto">Go to code</button>
+                                <a class="m-auto" href="https://github.com/Subhayan0022/certificate-generator/" target="_blank" rel="noopener noreferrer">
+                                    <button class="project-button rounded-xl px-8">Go to code</button>
+                                </a>
                             </div>
                         </div>
                     </div>

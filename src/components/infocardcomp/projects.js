@@ -138,9 +138,9 @@ function Projects(props) {
                         </div>
                         <div class="flex flex-row h-3/6 w-full">
                             <div class="flex h-full w-full">
-                                <button onClick={()=>{
-                                        
-                                }} class="project-button rounded-xl px-8 m-auto">Go to site</button>
+                                <a class="m-auto" href="https://srmcshktr.com/certificate-generator/" target="_blank" rel="noopener noreferrer">
+                                    <button class="project-button rounded-xl px-8 m-auto">Go to site</button>
+                                </a>
                             </div>
                             <div class="flex h-full w-full">
                                 <a class="m-auto" href="https://github.com/Subhayan0022/certificate-generator/" target="_blank" rel="noopener noreferrer">

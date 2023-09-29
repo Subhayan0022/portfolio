@@ -47,8 +47,8 @@ html{
 
 .sub-menu-wrap {
   position: absolute;
-  top: 12%;
-  right: 5%;
+  top: 13%;
+  right: 3%;
   width: 300px;
   max-height: 0px;
   overflow: hidden;
@@ -60,7 +60,7 @@ html{
 }
 
 .sub-menu {
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 0.45rem;
 }
@@ -129,10 +129,11 @@ html{
 }
 
 .project-button:hover  {
-  background-color:  rgba(85, 88, 90, 0.945);
-  color: black;
+  background-color:  rgba(63, 63, 63, 0);
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.5);
 
-  transform: translateX(20px);  
+  transform: scale(0.9, 0.9);
   
 }
 
@@ -178,7 +179,7 @@ html{
 
 .skill-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0px 5px 2px 5px rgba(255,255,255,0.5);
+  box-shadow: 0px 5px 5px 10px rgba(255,255,255,0.5);
 
 }
 
@@ -302,9 +303,13 @@ html{
   }
 }
 
+.typewriter{
+  margin-left: 10rem;
+}
+
 .typewriter h1 {
   overflow: hidden;
-  border-right: .15em solid aliceblue;
+  border-right: .1em solid aliceblue;
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: .10em;
@@ -353,3 +358,56 @@ html{
     margin-left: 0%;
   }
 }
+
+
+
+/* RESPONSIVE CODE
+
+@media  (max-width: 700px) {
+
+  img#code{
+    display: none;
+  }
+
+}
+
+@media  (max-width: 412px) {
+
+  img#code{
+    display: none;
+  }
+
+  .header{
+    padding: 10px 6%;
+    transition: .2s;
+
+  }
+
+  .header h1 {
+    font-size:1.8rem;
+    transition: .2s;
+  }
+
+  .portfolio-card{
+    justify-content: center;
+  }
+
+  .portfolio-card h1 {
+    font-size: 2rem;
+
+  }
+
+  .portfolio-card h2 {
+    font-size: 1rem;
+
+  }
+
+  .portfolio-card h3 {
+    font-size: 1rem;
+
+  }
+
+  .typewriter {
+    margin-left: 2rem;
+  }
+} */

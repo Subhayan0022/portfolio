@@ -7,10 +7,12 @@ function Portfolio(props) {
     return ( 
 
         <div class="flex flex-col portfolio-bg min-h-screen min-w-screen overflow-hidden">
-            <Header/>
+            <div class = "flex h-full w=full mt-10 p-4">
+                <Header/>
+            </div>
             <div class="flex flex-col h-full w-full">
                 <section id="sec-1">
-                    <div class="flex flex-col h-screen w-screen">
+                    <div class="flex flex-col h-screen w-screen ">
                         <IntroCard/>
                     </div> 
                 </section>

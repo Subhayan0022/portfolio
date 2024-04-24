@@ -6,7 +6,7 @@ import IntroCard from "./introcard"
 function Portfolio(props) {
     return ( 
 
-        <div class="flex flex-col portfolio-bg min-h-screen min-w-screen overflow-hidden">
+        <div class="flex flex-col min-h-screen min-w-screen overflow-hidden">
             <div class = "flex h-full w=full mt-10 p-4">
                 <Header/>
             </div>

@@ -1,5 +1,30 @@
-.portfolio-bg {
+/* .portfolio-bg {
   background-image: linear-gradient(to right, #434343 0%, black 100%);
+} */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  background: radial-gradient(ellipse at center, #141322 0%, #1f1e1e 100%);
+}
+
+#root {
+  position :relative;
+  z-index: 2;
+}
+
+#stars {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 16rem;
+  height: 100vh;
+  z-index: 1;
 }
 
 /* !!!SCROLLBAR CSS!!! */
@@ -47,7 +72,7 @@ html{
 
 .sub-menu-wrap {
   position: absolute;
-  top: 13%;
+  top: 6%;
   right: 3%;
   width: 300px;
   max-height: 0px;
@@ -76,7 +101,7 @@ html{
 }
 
 /* .portfolio-card {
-    background-color: rgba(63, 75, 75, 0);
+    background: radial-gradient(ellipse at center, #141322 0%, #1f1e1e 100%);
     box-shadow: 5px 5px 5px 3px rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(50px);
 
@@ -144,7 +169,8 @@ html{
     margin: 10px 5px;
     min-width: 200px;
     height: 70px;
-    background-color: rgba(45, 45, 48, 0.596);
+    background: radial-gradient(ellipse at center, #141322 0%, #1f1e1e 100%);
+
     text-align: center;
     backdrop-filter: blur(20px);
 
@@ -186,7 +212,8 @@ html{
 
 
 .project-card {
-  background-color: rgba(45, 45, 48, 0.596);
+  background: radial-gradient(ellipse at center, #141322 0%, #1f1e1e 100%);
+
   border-radius: 15px;
   box-shadow: 5px 5px 5px 3px rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(20px);
@@ -204,7 +231,8 @@ html{
 }
 
 .achiv-card {
-  background-color: rgba(45, 45, 48, 0.596);
+  background: radial-gradient(ellipse at center, #141322 0%, #1f1e1e 100%);
+
   border-radius: 15px;
   box-shadow: 5px 5px 5px 3px rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(20px);

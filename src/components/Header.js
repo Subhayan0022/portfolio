@@ -8,7 +8,7 @@ function Header(props) {
     return ( 
         <div class="flex flex-row header h-2/6 w-full">
             <div class="flex h-full w-2/12">
-                <h1 class="portfolio-title m-auto">SM.DEV</h1>
+                <h1 class="portfolio-title m-auto">Portfolio</h1>
             </div>
             <div class="flex flex-row justify-end m-auto h-full w-full">
                 <div class="flex h-full w-1/12 justify-center">

@@ -1,9 +1,9 @@
-import bxs from "../../assets/bxs.jpg"
-import ballgame from "../../assets/bgame.png"
-import portfolio from "../../assets/port.png"
-import certgen from "../../assets/certgen.png"
-import dino from "../../assets/dino.png"
-import upi from "../../assets/upi.png"
+import bxs from "../../assets/bxs.webp"
+import ballgame from "../../assets/bgame.webp"
+import portfolio from "../../assets/port.webp"
+import certgen from "../../assets/certgen.webp"
+import dino from "../../assets/dino.webp"
+import upi from "../../assets/upi.webp"
 
 import { useEffect } from "react"
 

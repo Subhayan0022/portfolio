@@ -1,6 +1,6 @@
-import linkedin from "../assets/linkedin.png"
-import github from "../assets/github.png"
-import contacts from "../assets/contacts.png"
+import linkedin from "../assets/linkedin.webp"
+import github from "../assets/github.webp"
+import contacts from "../assets/contacts.webp"
 
 
 function Header(props) {

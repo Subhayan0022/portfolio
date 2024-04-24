@@ -1,5 +1,5 @@
 import pfp from "../assets/face.gif"
-import arrow from "../assets/arrow.png"
+import arrow from "../assets/arrow.webp"
 import resumepdf from "../assets/Resume.pdf"
 
 function IntroCard(props) {

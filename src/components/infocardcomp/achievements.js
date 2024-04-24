@@ -1,5 +1,5 @@
-import cert1 from "../../assets/achiv1.jpeg"
-import cert2 from "../../assets/achiv2.jpg"
+import cert1 from "../../assets/achiv1.webp"
+import cert2 from "../../assets/achiv2.webp"
 
 function Achievements(props) {
     return ( 

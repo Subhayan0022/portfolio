@@ -6,14 +6,14 @@ function IntroCard(props) {
     return ( 
         <div class="flex flex-col h-full w-full">
             <div class="flex flex-row h-4/6 w-full">
-                <div class="flex ml-10 m-auto h-4/6 w-8/12">
+                <div class="flex m-auto h-4/6 w-8/12 ">
                     <div class="h-full w-full m-auto">
                         <img id="code" src={pfp} alt="..." class="h-full w-full"/>
                     </div>
                 </div>
-                <div class="flex flex-col  portfolio-card m-auto h-4/6 w-full">
+                <div class="flex flex-col mr-10  portfolio-card start-card m-auto h-4/6 w-8/12 ">
                     
-                    <div class="flex typewriter flex-col h-full w-10/12 mt-10">
+                    <div class="flex typewriter m-auto flex-col h-full w-10/12 mt-10">
                         <h1 class="portfolio-title text-center text-7xl font-black">HI! I'M SUBHAYAN.</h1>
                         <h2 class="portfolio-text text-2xl p-2 mt-10 text-center ">I'm a Student Developer currently pursuing my undergrad degree in Bachelor of Computer Applications (BCA).</h2>
                         <h3 class="portfolio-text text-2xl p-2 text-center">I develop Games on Unreal Engine and also create web apps while actively learning about the newest technological buzz.</h3>

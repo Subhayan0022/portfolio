@@ -34,8 +34,8 @@ function InfoCard(props) {
     infoCardButton["AchievementsCard"] = <Achievements/>
 
     return ( 
-        <div class="flex flex-col portfolio-card m-auto rounded-3xl h-full w-full">
-            <div class="flex flex-row justify-center m-auto shrink-0 h-40 w-full  rounded-xl">
+        <div class="flex flex-col portfolio-card m-auto h-full w-11/12">
+            <div class="flex flex-row justify-center m-auto shrink-0 h-40 w-full">
                 <div class="flex h-full w-full ">
                     <button onClick={()=>{
                         updateCurrentButton("SkillsCard")
@@ -52,7 +52,7 @@ function InfoCard(props) {
                     }} class="info-button rounded-xl m-auto ">Certificates</button>
                 </div>
             </div>
-            <div class="flex h-full w-full overflow-y-scroll">
+            <div class="flex h-full w-full overflow-hidden">
                 {infoCardButton[currentButton]}
             </div>
         </div>
